@@ -14,6 +14,7 @@ If you are developing a production application, we recommend using TypeScript wi
 Dockerized Web App
 
 Getting Started
+
 1 Build the Docker Image
   Run the following command in the root of the project (where the Dockerfile is located):
   docker build -t mcdonald-orlando-site .
