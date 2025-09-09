@@ -19,11 +19,11 @@ Instructions:
 
 1. Build the Docker Image
   Run the following command in the root of the project (where the Dockerfile is located):
-  docker build -t mcdonald-orlando-site .
+  docker build -t mcdonald-olando-site .
 
 2. Run the Container
   Start the container and map port 7775:
-  docker run -p 7775:7775 mcdonald-orlando-site
+  docker run -p 7775:7775 mcdonald-olando-site
 
 3. Access the Application
   Open your browser and visit:
