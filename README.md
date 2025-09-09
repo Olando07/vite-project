@@ -15,15 +15,17 @@ Dockerized Web App
 
 Getting Started
 
-1 Build the Docker Image
+Instructions:
+
+1. Build the Docker Image
   Run the following command in the root of the project (where the Dockerfile is located):
   docker build -t mcdonald-orlando-site .
 
-2 Run the Container
+2. Run the Container
   Start the container and map port 7775:
   docker run -p 7775:7775 mcdonald-orlando-site
 
-3 Access the Application
+3. Access the Application
   Open your browser and visit:
   http://127.0.0.1:7775
 
