@@ -20,4 +20,3 @@ EXPOSE 7775
 
 # Start the development server
 CMD ["npm", "run", "dev"]
-
