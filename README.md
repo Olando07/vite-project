@@ -32,11 +32,11 @@ Instructions:
 
 5. Run the Container
    Open docker, go to the images tab and click the run button. A pop up will appear, open the optional settings and enter 7775 into the host port input box then select run.
-   
+
    OR
 
    Start the container and map port 7775:
-   docker run -p 7775:7775 mcdonald-olando-site
+   `docker run -p 7775:7775 mcdonald-olando-site`
 
 6. Access the Application
    Open your browser and visit:
